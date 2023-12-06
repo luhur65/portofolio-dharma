@@ -21,10 +21,10 @@ const Header = () => {
         zIndex: 10,
       }}
     >
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#portfolio">Portfolio</a>
-      <a href="#footer">Contact</a>
+      <a href="#home">Beranda</a>
+      <a href="#about">Tentang</a>
+      <a href="#portfolio">Hasil Karya</a>
+      <a href="#footer">Kontak</a>
     </div>
   );
 };

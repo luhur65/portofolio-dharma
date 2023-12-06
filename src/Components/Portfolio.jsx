@@ -31,35 +31,47 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Sistem Informasi Sekolah",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Sistem Informasi Sekolah adalah sebuah aplikasi berbasis web yang digunakan untuk mengelola data sekolah. Aplikasi ini dibuat menggunakan framework Laravel 8 dan Bootstrap 4.",
+    url: "https://github.com/luhur65/sistem-informasi-sekolah",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Kuis Matematika",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "Kuis Matematika dibuat dengan Python. Aplikasi ini digunakan untuk menguji kemampuan matematika dasar.",
+    url: "https://github.com/luhur65/kuis-matematika",
   },
   {
     title: "My Resume Site",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "My Resume Site adalah sebuah website untuk memperkenalkan diri. Website ini dibuat menggunakan framework Materialize.",
+    url: "https://luhur65.github.io",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Whatsapp Send Message",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "Whatsapp Send Message dibuat dengan Python dan menggunakan Library Selenium. Aplikasi ini digunakan untuk mengirim pesan ke nomor whatsapp tertentu.",
+    url: "https://github.com/luhur65/selenium-wa-bot",
+  },
+  {
+    title: "Health App",
+    description:
+      "Health app adalah sebuah website untuk cek kesehatan mental. Website ini dibuat menggunakan framework Laravel 8 dan Bootstrap 4.",
+    url: "https://github.com/luhur65/health-app",
+  },
+  {
+    title: "Toko Online",
+    description:
+      "Toko Online adalah sebuah website untuk berjualan. Website ini dibuat menggunakan framework Laravel 8 dan Bootstrap 4.",
+    url: "https://github.com/luhur65/project-toko-online",
   },
 ];
 
 const Portfolio = () => {
   return (
     <section className="padding" id="portfolio">
-      <h2 style={{ textAlign: "center" }}>Portfolio</h2>
+      <h2 style={{ textAlign: "center" }}>Hasil Karya</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
